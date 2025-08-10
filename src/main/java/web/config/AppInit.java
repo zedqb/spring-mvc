@@ -10,14 +10,12 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         return null;
     }
 
-
     @Override
     protected Class<?>[] getServletConfigClasses() {
         return new Class<?>[]{
                 WebConfig.class
         };
     }
-
 
     @Override
     protected String[] getServletMappings() {
